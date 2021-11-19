@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat&display=swap');
+
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.pocetna-container{
+  width: 100%;
+  height: 100%;
+  background-color: #FF9234;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tb-za-tb-pocetna-logo {
+  text-align: center;
+  width: 500px;
+  height: 500px;
+}
+
+.pocetna-naslov {
+  text-align: center;
+  font-family: 'Luckiest Guy', cursive;
+  margin-top: 5px;
+  font-size: 50px;
+}
+
+p {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+#zapocni {
+    font-family: 'Luckiest Guy', cursive;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: #35D0BA;
+    color: #FEFED5;
+    border: 0px;
+    border-radius: 3px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#zapocni:hover {
+  transition: 0.5s;
+  background-color: #3a8;
+}
+
+.kviz-container{
+  display:none;
+}
+
+body {
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;      
+    font-family: 'Montserrat', sans-serif;       
+    font-size: 20px;
+    color: #FEFED5;
+    text-align: center;
+    background-color: #FF9234;
+    height:100vh;
+
+    /* Padding to avoid the "unsafe" areas behind notches in the screen */
+    padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
+}
+
+.header {
+    background-color: #FF9234;
+    width: 100%;
+    position: relative;
+    margin-bottom: 25px;
+  }
+  
+  .tb-za-tb-logo {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-top: -95px;
+    left:25px;
+  }
+  
+  h1 {
+    font-family: 'Luckiest Guy', cursive;
+      text-align: right;
+      color: #FEFED5;
+      margin-top: 0px;
+      margin-bottom: 5px;
+      margin-right: 25px;
+  }
+  
+
+  
+    .pitanje{
+      font-weight: 600;
+    }
+    .odgovori {
+        margin-bottom: 20px;
+    }
+    #zavrsi{
+      font-family: 'Luckiest Guy', cursive;
+      font-size: 20px;
+      background-color: #297;
+      color: #FEFED5;
+      border: 0px;
+      border-radius: 3px;
+      padding: 20px;
+      cursor: pointer;
+      margin-bottom: 20px;
+    }
+    #zavrsi:hover{
+      transform: 0.5s ease-in;
+      background-color: #3a8;
+    }
+
+    .poruka {
+      color: #FEFED5;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #35D0BA;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+      

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TB za tb</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="pocetna-container" id="pocetna-container">
+        <h1 class="pocetna-naslov">Dobrodosli u TB za tb kviz!</h1>
+        <img src="img/tbzatb-removebg-preview.png" alt="" class="tb-za-tb-pocetna-logo">
+        <p>Pritisnite dugme ispod za pocetak kviza...</p>
+        <button id="zapocni" onclick="fadeOut();">zapocni kviz</button>
+    </div>
+    <div class="kviz-container" id="kviz-container">
+    <div class="header">
+        <h1>TB za tb</h1>
+        <img src="img/tbzatb-removebg-preview.png" alt="" class="tb-za-tb-logo">
+    </div>
+    <div class="sadrzaj">
+        <div id="quiz"></div>
+        <button id="zavrsi">Završi kviz</button>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="poruka"></p>
+        </div>
+    </div>
+
+    </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
